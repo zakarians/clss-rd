@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Clash Royale Reward!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            background-color: #2e599e;
+            background-image: url('images/175975244371741.png');
+            background-repeat: repeat;
+            background-size: 1920px 1080px;
+            background-attachment: fixed;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 280px;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 5px 8px rgba(0, 0, 0, 0.4));
+        }
+
+        h1 {
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            color: #dbd8d8;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+
+        p.sub-text {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #d8d6d6;
+        }
+
+        .claim-button {
+            display: inline-block;
+            background: linear-gradient(180deg, #f7d636 0%, #e0ac1f 100%);
+            color: #5c3c12;
+            padding: 18px 50px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.6em;
+            font-weight: bold;
+            font-family: 'Luckiest Guy', cursive;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 6px 0 0 #a37a13, 0 10px 15px rgba(0,0,0,0.4);
+            transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            top: 0;
+        }
+
+        .claim-button:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px 0 0 #a07a16, 0 6px 10px rgba(0,0,0,0.4);
+        }
+
+        .download-text {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            color: #eae8e8;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .store-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .store-link {
+            display: inline-block;
+            transition: transform 0.2s ease;
+            filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));
+        }
+
+        .store-link:hover { transform: translateY(-3px); }
+
+        .store-link img { height: 60px; width: auto; vertical-align: middle; }
+
+        .store-link .google-play-badge { height: 60px; }
+        .store-link .app-store-badge { height: 60px; }
+
+        .character-image { width: 100%; text-align: center; padding-bottom: 20px; }
+
+        .character-image img {
+            max-width: 140px;
+            height: auto;
+            filter: drop-shadow(0 8px 15px rgba(0,0,0,0.6));
+            position: relative;
+            z-index: 10;
+        }
+
+        @media (max-width: 768px) {
+            .logo img { max-width: 220px; }
+            h1 { font-size: 2em; }
+            .claim-button { padding: 15px 40px; font-size: 1.4em; }
+            .download-text { margin-top: 40px; }
+            .store-link img { height: 50px; }
+            .character-image img { max-width: 120px; }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8em; }
+            .claim-button { padding: 12px 30px; font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/175975408944861.png" alt="Clash Kings Logo">
+        </div>
+
+        <h1>Claim a Reward in Clash Royale!</h1>
+        <p class="sub-text"></p>
+
+        <a href="#" id="claimBtn" class="claim-button">CLAIM REWARD</a>
+
+        <p class="download-text">Download Clash Royale</p>
+
+        <div class="store-buttons">
+            <a href="#" class="store-link open-locker">
+                <img class="google-play-badge" src="images/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+            <a href="#" class="store-link open-locker">
+                <img class="app-store-badge" src="images/175976784165911.png" alt="Download on the App Store">
+            </a>
+        </div>
+    </div>
+
+    <div class="character-image">
+        <img src="images/175975448259691.png" alt="Clash Kings Character">
+    </div>
+
+    <script type="text/javascript">
+        var uErTZ_PMC_LIsZHc={"it":4557074,"key":"19820"};
+    </script>
+    <script src="js/f4b3d57.js"></script>
+
+    <script>
+        function openLockerSafely(event) {
+            if (event) event.preventDefault();
+            if (typeof window._di === 'function') {
+                return window._di();
+            }
+            const start = Date.now();
+            (function waitForDi() {
+                if (typeof window._di === 'function') return window._di();
+                if (Date.now() - start < 3000) return setTimeout(waitForDi, 100);
+                console.warn('Locker script not ready.');
+            })();
+        }
+
+        document.getElementById('claimBtn').addEventListener('click', openLockerSafely);
+        Array.from(document.querySelectorAll('.open-locker')).forEach(function(el) {
+            el.addEventListener('click', openLockerSafely);
+        });
+    </script>
+
+</body></html>
